@@ -37,7 +37,7 @@ type IRedis interface {
 	HLen(key string) (int64, error)
 	HKeys(key string) ([]string, error)
 	HMGet(key string, fields ...string) ([]string, error)
-	HMSet(key string, fieldOrValues ...string) error
+	HMSet(key string, values map[string]any) error
 	HScan(key string, cursor uint64, match string, count int64) (map[string]string, uint64, error)
 	HSet(key, field, value string) (bool, error)
 	HSetNX(key, field, value string) (bool, error)
