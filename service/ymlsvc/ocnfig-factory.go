@@ -1,4 +1,4 @@
-package yamlsvc
+package ymlsvc
 
 import (
 	"reflect"

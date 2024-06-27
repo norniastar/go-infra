@@ -1,4 +1,4 @@
-package yamlsvc
+package ymlsvc
 
 import (
 	json "github.com/bytedance/sonic"
