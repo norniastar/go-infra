@@ -18,6 +18,7 @@ func (m osPath) Join(paths ...string) string {
 	for _, path := range paths {
 		if res == "" {
 			res = path
+			continue
 		}
 		if path == ".." {
 			res = filepath.Dir(res)
