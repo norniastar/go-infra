@@ -18,7 +18,7 @@ const (
 import (
     "github.com/norniastar/infra-core/contract"
     {{- range .packages }}
-    {{ .Name }} "github.com/{{ join .RelativePathParts "/" }}"
+    {{ .Name }} "github.com/norniastar/{{ join .RelativePathParts "/" }}"
     {{- end }}
 )
 
