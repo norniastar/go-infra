@@ -22,7 +22,7 @@ import (
     {{- end }}
 )
 
-// Register is 注册
+// Register 注册
 func Register(apiFactory contract.IAPIFactory) {
 	{{- range $i, $r := .packages }}{{ range $ci, $cr := $r.Apis }}
     apiFactory.Register("{{ $r.Endpoint }}", "{{ $cr.Route }}", {{ $r.Name }}.{{ $cr.Struct }}API{}){{ end }}{{ end }}
