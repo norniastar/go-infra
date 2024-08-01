@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/norniastar/infra-core/contract"
+	"github.com/norniastar/go-infra/contract"
 )
 
 type ioDirectory struct {

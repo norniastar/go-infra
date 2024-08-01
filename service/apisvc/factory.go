@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/norniastar/infra-core/contract"
-	errorcode "github.com/norniastar/infra-core/model/enum/error-code"
-	"github.com/norniastar/infra-core/service/errorsvc"
+	"github.com/norniastar/go-infra/contract"
+	errorcode "github.com/norniastar/go-infra/model/enum/error-code"
+	"github.com/norniastar/go-infra/service/errorsvc"
 )
 
 var (

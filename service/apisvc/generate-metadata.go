@@ -7,16 +7,16 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/norniastar/infra-core/contract"
-	"github.com/norniastar/infra-core/service/ossvc"
-	"github.com/norniastar/infra-core/service/pathsvc"
+	"github.com/norniastar/go-infra/contract"
+	"github.com/norniastar/go-infra/service/ossvc"
+	"github.com/norniastar/go-infra/service/pathsvc"
 )
 
 const (
 	metadataTpl = `package api
 
 import (
-    "github.com/norniastar/infra-core/contract"
+    "github.com/norniastar/go-infra/contract"
     {{- range .packages }}
     {{ .Name }} "github.com/norniastar/{{ join .RelativePathParts "/" }}"
     {{- end }}

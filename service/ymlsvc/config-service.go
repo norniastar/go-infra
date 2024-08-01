@@ -2,7 +2,7 @@ package ymlsvc
 
 import (
 	json "github.com/bytedance/sonic"
-	"github.com/norniastar/infra-core/contract"
+	"github.com/norniastar/go-infra/contract"
 )
 
 type configService struct {

@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"reflect"
 
-	"github.com/norniastar/infra-core/contract"
+	"github.com/norniastar/go-infra/contract"
 
 	"gopkg.in/yaml.v2"
 )

@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/norniastar/infra-core/contract"
-	configgroup "github.com/norniastar/infra-core/model/enum/config-group"
+	"github.com/norniastar/go-infra/contract"
+	configgroup "github.com/norniastar/go-infra/model/enum/config-group"
 )
 
 var configFactoryMutex sync.Mutex

@@ -1,7 +1,7 @@
 package pathsvc
 
 import (
-	"github.com/norniastar/infra-core/contract"
+	"github.com/norniastar/go-infra/contract"
 	"path/filepath"
 )
 

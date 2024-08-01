@@ -2,7 +2,7 @@ package errorsvc
 
 import (
 	"fmt"
-	"github.com/norniastar/infra-core/contract"
+	"github.com/norniastar/go-infra/contract"
 	"runtime/debug"
 )
 

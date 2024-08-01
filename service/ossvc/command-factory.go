@@ -4,7 +4,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/norniastar/infra-core/contract"
+	"github.com/norniastar/go-infra/contract"
 )
 
 type factory func(name string, args ...string) contract.ICommand

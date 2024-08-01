@@ -1,7 +1,7 @@
 package contract
 
 import (
-	"github.com/norniastar/infra-core/model/global"
+	"github.com/norniastar/go-infra/model/global"
 	"time"
 )
 

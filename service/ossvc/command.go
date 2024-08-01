@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/norniastar/infra-core/contract"
+	"github.com/norniastar/go-infra/contract"
 )
 
 var ErrTimeout = fmt.Errorf("执行超时")

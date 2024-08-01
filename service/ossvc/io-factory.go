@@ -1,7 +1,7 @@
 package ossvc
 
 import (
-	"github.com/norniastar/infra-core/contract"
+	"github.com/norniastar/go-infra/contract"
 )
 
 type ioFactory struct {

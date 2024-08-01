@@ -1,6 +1,6 @@
 package contract
 
-import errorcode "github.com/norniastar/infra-core/model/enum/error-code"
+import errorcode "github.com/norniastar/go-infra/model/enum/error-code"
 
 type IError interface {
 	error
